@@ -5,10 +5,21 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Спрайт",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
 	"uniqueId": "8p8lqki1q9g",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"background",
+			"main_menu_background"
+		],
 		"subfolders": []
 	},
 	"functionsName": "Функции",
