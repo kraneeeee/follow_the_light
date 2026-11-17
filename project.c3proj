@@ -8,8 +8,29 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
-			"name": "Спрайт",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -17,8 +38,10 @@
 	"uniqueId": "8p8lqki1q9g",
 	"objectTypes": {
 		"items": [
-			"background",
-			"main_menu_background"
+			"main_menu_title",
+			"play",
+			"Mouse",
+			"main_menu_bg"
 		],
 		"subfolders": []
 	},
@@ -31,13 +54,13 @@
 	},
 	"layouts": {
 		"items": [
-			"Макет 1"
+			"MainMenu"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Список событий 1"
+			"Menu"
 		],
 		"subfolders": []
 	},

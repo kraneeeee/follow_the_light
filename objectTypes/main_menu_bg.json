@@ -1,7 +1,7 @@
 {
-	"name": "main_menu_background",
+	"name": "main_menu_bg",
 	"plugin-id": "Sprite",
-	"sid": 949182491371560,
+	"sid": 509564714297525,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,14 +20,14 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 7205385,
+						"imageSpriteId": 9675531,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 702204777372559,
-				"name": "Default",
+				"sid": 304607272308969,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

@@ -1,0 +1,16 @@
+{
+	"name": "play",
+	"plugin-id": "Text",
+	"sid": 235140569735146,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 601939115042714
+		}
+	],
+	"effectTypes": []
+}
