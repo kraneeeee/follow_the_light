@@ -1,0 +1,50 @@
+{
+	"name": "MainMenu",
+	"events": [
+		{
+			"eventType": "script",
+			"language": "javascript",
+			"script": [
+				"// Кнопки",
+				"",
+				"const menuButtons = runtime.objects.MenuButtons.getAllInstances();",
+				"const mouse = runtime.objects.Mouse;",
+				"const speed = 3;",
+				"",
+				"menuButtons.forEach(prop => {",
+				"\tif (prop.containsPoint(mouse.getMouseX(), mouse.getMouseY())) {",
+				"\t\tprop.opacity -= 2 * runtime.dt;",
+				"\t} else {",
+				"\t\tprop.opacity += speed * runtime.dt;",
+				"\t}",
+				"",
+				"\tprop.opacity = Math.max(0.6, Math.min(1, prop.opacity));",
+				"})"
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 817195330388159,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "exit"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "close",
+					"objectClass": "Browser",
+					"sid": 403056738241595
+				}
+			],
+			"sid": 655317164890603
+		}
+	],
+	"sid": 106740561620560
+}

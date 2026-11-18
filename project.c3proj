@@ -1,11 +1,18 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 50603,
+	"savedWithRelease": 50602,
 	"name": "game",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
 	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"bundled": false
+		},
 		{
 			"type": "plugin",
 			"id": "Mouse",
@@ -37,19 +44,39 @@
 	],
 	"uniqueId": "8p8lqki1q9g",
 	"objectTypes": {
-		"items": [
-			"main_menu_title",
-			"play",
-			"Mouse",
-			"main_menu_bg"
-		],
-		"subfolders": []
+		"items": [],
+		"subfolders": [
+			{
+				"items": [
+					"main_menu_bg",
+					"main_menu_title",
+					"fog",
+					"rain"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"exit",
+							"play",
+							"settings",
+							"Mouse",
+							"Browser"
+						],
+						"subfolders": [],
+						"name": "buttons"
+					}
+				],
+				"name": "main_menu"
+			}
+		]
 	},
 	"functionsName": "Функции",
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"MenuButtons"
+		],
 		"subfolders": []
 	},
 	"layouts": {
@@ -60,14 +87,15 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Menu"
+			"MainMenu"
 		],
 		"subfolders": []
 	},
 	"rootFileFolders": {
 		"script": {
 			"items": [],
-			"subfolders": []
+			"subfolders": [],
+			"autoReloadOnPreview": true
 		},
 		"sound": {
 			"items": [],

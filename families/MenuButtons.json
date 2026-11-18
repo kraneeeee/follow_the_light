@@ -1,0 +1,13 @@
+{
+	"name": "MenuButtons",
+	"plugin-id": "Text",
+	"sid": 731876648310522,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"play",
+		"exit",
+		"settings"
+	]
+}
