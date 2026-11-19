@@ -51,7 +51,9 @@
 	],
 	"uniqueId": "8p8lqki1q9g",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"bg_1"
+		],
 		"subfolders": [
 			{
 				"items": [
@@ -93,6 +95,18 @@
 						],
 						"subfolders": [],
 						"name": "ground"
+					},
+					{
+						"items": [],
+						"subfolders": [],
+						"name": "bg"
+					},
+					{
+						"items": [
+							"tree_1"
+						],
+						"subfolders": [],
+						"name": "other"
 					}
 				],
 				"name": "game"
