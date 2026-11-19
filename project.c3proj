@@ -40,6 +40,13 @@
 			"name": "Tween",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "8p8lqki1q9g",
@@ -67,6 +74,28 @@
 					}
 				],
 				"name": "main_menu"
+			},
+			{
+				"items": [
+					"black_screen"
+				],
+				"subfolders": [],
+				"name": "fade"
+			},
+			{
+				"items": [
+					"player"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"ground"
+						],
+						"subfolders": [],
+						"name": "ground"
+					}
+				],
+				"name": "game"
 			}
 		]
 	},
@@ -81,21 +110,39 @@
 	},
 	"layouts": {
 		"items": [
-			"MainMenu"
+			"MainMenu",
+			"Game"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"MainMenu"
+			"MainMenu",
+			"Game"
 		],
 		"subfolders": []
 	},
 	"rootFileFolders": {
 		"script": {
-			"items": [],
-			"subfolders": [],
-			"autoReloadOnPreview": true
+			"items": [
+				{
+					"name": "fade.js",
+					"type": "application/javascript",
+					"sid": 830268727018944,
+					"script-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "main.js",
+					"type": "application/javascript",
+					"sid": 795556530428408,
+					"script-info": {
+						"purpose": "main"
+					}
+				}
+			],
+			"subfolders": []
 		},
 		"sound": {
 			"items": [],
@@ -258,5 +305,5 @@
 	},
 	"viewportWidth": 1920,
 	"viewportHeight": 1080,
-	"firstLayout": null
+	"firstLayout": "MainMenu"
 }

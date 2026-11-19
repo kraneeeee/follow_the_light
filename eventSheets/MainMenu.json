@@ -13,7 +13,7 @@
 				"",
 				"menuButtons.forEach(prop => {",
 				"\tif (prop.containsPoint(mouse.getMouseX(), mouse.getMouseY())) {",
-				"\t\tprop.opacity -= 2 * runtime.dt;",
+				"\t\tprop.opacity -= speed * runtime.dt;",
 				"\t} else {",
 				"\t\tprop.opacity += speed * runtime.dt;",
 				"\t}",
@@ -44,6 +44,31 @@
 				}
 			],
 			"sid": 655317164890603
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 195632873088060,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "play"
+					}
+				}
+			],
+			"actions": [
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"globalThis.fading = true;"
+					]
+				}
+			],
+			"sid": 664598133884535
 		}
 	],
 	"sid": 106740561620560

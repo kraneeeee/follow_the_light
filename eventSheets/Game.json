@@ -1,0 +1,27 @@
+{
+	"name": "Game",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 762905561249634
+				}
+			],
+			"actions": [
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"globalThis.fadeOut = true;",
+						"globalThis.fadeTimer = 0;"
+					]
+				}
+			],
+			"sid": 100361573904326
+		}
+	],
+	"sid": 480381964951787
+}
