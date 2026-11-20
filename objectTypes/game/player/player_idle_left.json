@@ -1,7 +1,7 @@
 {
-	"name": "player",
+	"name": "player_idle_left",
 	"plugin-id": "Sprite",
-	"sid": 423278598375259,
+	"sid": 458919586802781,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,22 +12,22 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 517,
+						"height": 1083,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 2030340,
+						"imageSpriteId": 9582342,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 195262651935720,
-				"name": "Animation 1",
+				"sid": 725023415339189,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

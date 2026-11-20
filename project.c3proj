@@ -51,9 +51,7 @@
 	],
 	"uniqueId": "8p8lqki1q9g",
 	"objectTypes": {
-		"items": [
-			"bg_1"
-		],
+		"items": [],
 		"subfolders": [
 			{
 				"items": [
@@ -85,9 +83,7 @@
 				"name": "fade"
 			},
 			{
-				"items": [
-					"player"
-				],
+				"items": [],
 				"subfolders": [
 					{
 						"items": [
@@ -97,7 +93,9 @@
 						"name": "ground"
 					},
 					{
-						"items": [],
+						"items": [
+							"bg_1"
+						],
 						"subfolders": [],
 						"name": "bg"
 					},
@@ -107,6 +105,14 @@
 						],
 						"subfolders": [],
 						"name": "other"
+					},
+					{
+						"items": [
+							"player_idle_right",
+							"player_idle_left"
+						],
+						"subfolders": [],
+						"name": "player"
 					}
 				],
 				"name": "game"
