@@ -209,7 +209,16 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "Bebas Neue Pro Book.ttf",
+					"type": "application/font-sfnt",
+					"sid": 683853467787112,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {
