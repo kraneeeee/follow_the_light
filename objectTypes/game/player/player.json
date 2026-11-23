@@ -1,0 +1,215 @@
+{
+	"name": "player",
+	"plugin-id": "Sprite",
+	"sid": 596828104305691,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "Direction",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 220241323216302
+		},
+		{
+			"name": "Stamina",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 500419121348892
+		},
+		{
+			"name": "MaxStamina",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 798246339429676
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 128785452540433
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 441428921222065
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 834,
+						"height": 1150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 368153,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 299824987974066,
+				"name": "Idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 834,
+						"height": 1150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4487794,
+						"collisionPoly": {
+							"points": [
+								0.49280575539568344,
+								0.04521739130434783,
+								0.6630695443645084,
+								0.0782608695652174,
+								0.762589928057554,
+								0.13043478260869565,
+								0.8333333333333334,
+								0.18434782608695652,
+								0.8693045563549161,
+								0.2252173913043478,
+								0.8645083932853717,
+								0.28347826086956524,
+								0.670263788968825,
+								0.9756521739130435,
+								0.31414868105515587,
+								0.9504347826086956,
+								0.2565947242206235,
+								0.8921739130434783,
+								0.23501199040767387,
+								0.6982608695652174,
+								0.24820143884892087,
+								0.16521739130434782
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 834,
+						"height": 1150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4308560,
+						"collisionPoly": {
+							"points": [
+								0.473621103117506,
+								0.04608695652173913,
+								0.5239808153477218,
+								0.04608695652173913,
+								0.7613908872901679,
+								0.13130434782608696,
+								0.8333333333333334,
+								0.18521739130434783,
+								0.8693045563549161,
+								0.22695652173913045,
+								0.7721822541966427,
+								0.9017391304347826,
+								0.6019184652278178,
+								0.9643478260869566,
+								0.26618705035971224,
+								0.8695652173913043,
+								0.23381294964028776,
+								0.6773913043478261,
+								0.24820143884892087,
+								0.16608695652173913
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 229292766798895,
+				"name": "Walk",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			},
+			{
+				"frames": [
+					{
+						"width": 834,
+						"height": 1150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4424776,
+						"collisionPoly": {
+							"points": [
+								0.5671462829736211,
+								0.058260869565217394,
+								0.6079136690647482,
+								0.058260869565217394,
+								0.749400479616307,
+								0.09130434782608696,
+								0.8609112709832134,
+								0.15043478260869564,
+								0.9388489208633094,
+								0.20869565217391303,
+								0.9724220623501199,
+								0.25130434782608696,
+								0.9580335731414868,
+								0.31565217391304345,
+								0.7649880095923262,
+								0.8921739130434783,
+								0.6127098321342925,
+								0.96,
+								0.0035971223021582736,
+								0.8208695652173913,
+								0.31774580335731417,
+								0.18347826086956523,
+								0.42206235011990406,
+								0.09652173913043478
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 460612871167907,
+				"name": "Run",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

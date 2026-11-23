@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 50602,
-	"name": "game",
+	"name": "Follow The Light",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -10,6 +10,13 @@
 			"type": "plugin",
 			"id": "Browser",
 			"name": "Browser",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -36,6 +43,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Tween",
 			"name": "Tween",
 			"author": "Scirra",
@@ -51,7 +65,9 @@
 	],
 	"uniqueId": "8p8lqki1q9g",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"Keyboard"
+		],
 		"subfolders": [
 			{
 				"items": [
@@ -87,32 +103,48 @@
 				"subfolders": [
 					{
 						"items": [
-							"ground"
+							"ground",
+							"invisible_ground",
+							"pit"
 						],
 						"subfolders": [],
 						"name": "ground"
 					},
 					{
 						"items": [
-							"bg_1"
+							"bg_1",
+							"bush"
 						],
 						"subfolders": [],
 						"name": "bg"
 					},
 					{
 						"items": [
-							"tree_1"
+							"tree_1",
+							"blink",
+							"left_fade",
+							"blink_light",
+							"shadow",
+							"barrier",
+							"stamina_empty",
+							"stamina_full"
 						],
 						"subfolders": [],
 						"name": "other"
 					},
 					{
 						"items": [
-							"player_idle_right",
-							"player_idle_left"
+							"player"
 						],
 						"subfolders": [],
 						"name": "player"
+					},
+					{
+						"items": [
+							"pause"
+						],
+						"subfolders": [],
+						"name": "gui"
 					}
 				],
 				"name": "game"
@@ -274,7 +306,7 @@
 		"author": "",
 		"authorEmail": "",
 		"authorWebsite": "",
-		"appId": "",
+		"appId": "com.kraneeeee.follow_the_light",
 		"saveLLMContextFile": true,
 		"pixelRounding": true,
 		"fov": 0.7853981633974483,

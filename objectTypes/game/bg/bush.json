@@ -1,0 +1,70 @@
+{
+	"name": "bush",
+	"plugin-id": "Sprite",
+	"sid": 577458197475345,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 300,
+						"height": 150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 738136,
+						"collisionPoly": {
+							"points": [
+								0.48333333333333334,
+								0.08,
+								0.5433333333333333,
+								0.08666666666666667,
+								0.6833333333333333,
+								0.19333333333333333,
+								0.8133333333333334,
+								0.37333333333333335,
+								0.8366666666666667,
+								0.42,
+								0.93,
+								0.8133333333333334,
+								0.93,
+								0.8733333333333333,
+								0.9,
+								1,
+								0.14,
+								0.9933333333333333,
+								0.11,
+								0.8866666666666667,
+								0.11,
+								0.8,
+								0.30333333333333334,
+								0.18,
+								0.35,
+								0.11333333333333333
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 857631111397950,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

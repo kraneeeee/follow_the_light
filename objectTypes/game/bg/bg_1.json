@@ -1,7 +1,7 @@
 {
 	"name": "bg_1",
 	"plugin-id": "Sprite",
-	"sid": 887874455608644,
+	"sid": 708949376977581,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 1638107,
+						"imageSpriteId": 8627495,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 302175992279937,
+				"sid": 967355359052972,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
