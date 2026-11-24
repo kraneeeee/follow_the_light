@@ -1,7 +1,7 @@
 {
-	"name": "pause",
+	"name": "small_bush",
 	"plugin-id": "Sprite",
-	"sid": 453041175909206,
+	"sid": 109694546620876,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 4946083,
+						"imageSpriteId": 3849654,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 264739715547843,
+				"sid": 206462555807713,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

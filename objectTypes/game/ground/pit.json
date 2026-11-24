@@ -1,7 +1,7 @@
 {
 	"name": "pit",
 	"plugin-id": "Sprite",
-	"sid": 958294066350833,
+	"sid": 977298594880187,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6353988,
+						"imageSpriteId": 8624049,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 658691807411921,
+				"sid": 456641724009646,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

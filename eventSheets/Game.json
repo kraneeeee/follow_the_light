@@ -421,25 +421,56 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 199264068921742,
+					"id": "is-overlapping-another-object",
+					"objectClass": "player",
+					"sid": 809198794699349,
 					"parameters": {
-						"key": 27
+						"object": "pit"
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "set-visible",
-					"objectClass": "pause",
-					"sid": 514557870319452,
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"globalThis.isPlayerDead = true;"
+					]
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 396861774298252,
 					"parameters": {
-						"visibility": "visible"
+						"seconds": "1.5",
+						"use-timescale": true
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "player",
+					"sid": 160715070051245,
+					"parameters": {
+						"x": "2375",
+						"y": "825"
+					}
+				},
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"globalThis.isPlayerDead = false;"
+					]
+				},
+				{
+					"type": "script",
+					"language": "javascript",
+					"script": [
+						"globalThis.playerRespawned = true;"
+					]
 				}
 			],
-			"sid": 767626567354971
+			"sid": 953131805250805
 		}
 	],
 	"sid": 480381964951787

@@ -113,7 +113,8 @@
 					{
 						"items": [
 							"bg_1",
-							"bush"
+							"bush",
+							"small_bush"
 						],
 						"subfolders": [],
 						"name": "bg"
@@ -140,9 +141,7 @@
 						"name": "player"
 					},
 					{
-						"items": [
-							"pause"
-						],
+						"items": [],
 						"subfolders": [],
 						"name": "gui"
 					}
