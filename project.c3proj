@@ -3,7 +3,7 @@
 	"savedWithRelease": 50602,
 	"name": "Follow The Light",
 	"runtime": "c3",
-	"useWorker": "auto",
+	"useWorker": "off",
 	"bundleAddons": false,
 	"usedAddons": [
 		{
@@ -197,6 +197,22 @@
 					}
 				},
 				{
+					"name": "gameAudio.js",
+					"type": "application/javascript",
+					"sid": 830268727018945,
+					"script-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "uiMenus.js",
+					"type": "application/javascript",
+					"sid": 830268727018946,
+					"script-info": {
+						"purpose": "none"
+					}
+				},
+				{
 					"name": "main.js",
 					"type": "application/javascript",
 					"sid": 795556530428408,
@@ -208,11 +224,109 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "footstep_00.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 801001001001001,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "footstep_01.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 801001001001002,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "footstep_02.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 801001001001003,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "footstep_03.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 801001001001004,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "footstep_04.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 801001001001005,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "jump.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 801001001001006,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "land.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 801001001001007,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ui_click.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 801001001001008,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ui_hover.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 801001001001009,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "ambience_forest.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 802002002002001,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "music_forest.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 802002002002002,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "music_menu.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 802002002002003,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

@@ -1,10 +1,12 @@
 globalThis.isPlayerDead = false;
 globalThis.playerRespawned = false;
+globalThis.fadeTargetLayout = "Game";
 
 export function fade(runtime) {
     globalThis.fading = false;
     globalThis.fadeOut = false;
     globalThis.fadeTimer = 0;
+    globalThis.fadeTargetLayout = "Game";
 
     runtime.addEventListener("tick", () => {
         if (globalThis.fading) {
@@ -27,7 +29,7 @@ export function fade(runtime) {
     });
 }
 
-function toFade(runtime, speedToFade, goToGameLayout) {
+function toFade(runtime, speedToFade, changeLayout) {
     const blackScreen = runtime.objects.black_screen.getFirstInstance();
 
     blackScreen.opacity += speedToFade * runtime.dt;
@@ -36,7 +38,11 @@ function toFade(runtime, speedToFade, goToGameLayout) {
         blackScreen.opacity = 1;
         globalThis.fading = false;
 
-        if (goToGameLayout) runtime.goToLayout("Game");
+        if (changeLayout) {
+            const target = globalThis.fadeTargetLayout || "Game";
+            globalThis.fadeTargetLayout = "Game";
+            runtime.goToLayout(target);
+        }
     }
 };
 
