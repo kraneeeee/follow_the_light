@@ -497,10 +497,19 @@
 				{
 					"id": "set-angle-of-motion",
 					"objectClass": "dog",
-					"sid": 285360063266649,
+					"sid": 727297829411026,
 					"behaviorType": "Bullet",
 					"parameters": {
 						"angle": "180"
+					}
+				},
+				{
+					"id": "set-acceleration",
+					"objectClass": "dog",
+					"sid": 266793858456378,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"acceleration": "100"
 					}
 				},
 				{
@@ -510,6 +519,11 @@
 					"parameters": {
 						"scale": "0.8"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "dog_trigger",
+					"sid": 649185474028334
 				}
 			],
 			"sid": 111654955196081

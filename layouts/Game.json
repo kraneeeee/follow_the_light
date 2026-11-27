@@ -1648,7 +1648,7 @@
 						"Bullet": {
 							"properties": {
 								"speed": 0,
-								"acceleration": 100,
+								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
 								"set-angle": false,
@@ -1694,7 +1694,7 @@
 						"Bullet": {
 							"properties": {
 								"speed": 0,
-								"acceleration": 100,
+								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
 								"set-angle": false,
@@ -1740,7 +1740,7 @@
 						"Bullet": {
 							"properties": {
 								"speed": 0,
-								"acceleration": 100,
+								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
 								"set-angle": false,
@@ -1786,7 +1786,7 @@
 						"Bullet": {
 							"properties": {
 								"speed": 0,
-								"acceleration": 100,
+								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
 								"set-angle": false,
@@ -2077,9 +2077,9 @@
 					"locked": false,
 					"world": {
 						"x": 3704,
-						"y": 538,
+						"y": 556,
 						"width": 7467,
-						"height": 1080,
+						"height": 1116,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
