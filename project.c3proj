@@ -43,6 +43,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
@@ -114,7 +121,8 @@
 						"items": [
 							"bg_1",
 							"bush",
-							"small_bush"
+							"small_bush",
+							"bg_2"
 						],
 						"subfolders": [],
 						"name": "bg"
@@ -128,7 +136,11 @@
 							"shadow",
 							"barrier",
 							"stamina_empty",
-							"stamina_full"
+							"stamina_full",
+							"brick",
+							"tree_2",
+							"dog_trigger",
+							"dog"
 						],
 						"subfolders": [],
 						"name": "other"

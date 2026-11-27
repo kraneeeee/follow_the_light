@@ -471,6 +471,48 @@
 				}
 			],
 			"sid": 953131805250805
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 120495705750060,
+					"parameters": {
+						"object": "dog_trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "dog",
+					"sid": 565442759962158,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "500"
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "dog",
+					"sid": 285360063266649,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "180"
+					}
+				},
+				{
+					"id": "set-layout-scale",
+					"objectClass": "System",
+					"sid": 803999169572685,
+					"parameters": {
+						"scale": "0.8"
+					}
+				}
+			],
+			"sid": 111654955196081
 		}
 	],
 	"sid": 480381964951787

@@ -1,0 +1,66 @@
+{
+	"name": "dog",
+	"plugin-id": "Sprite",
+	"sid": 484141186422052,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 460578702836103
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 200,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 2502874,
+						"collisionPoly": {
+							"points": [
+								0.225,
+								0.03,
+								0.285,
+								0.03,
+								0.81,
+								0.23,
+								0.835,
+								0.95,
+								0.375,
+								0.99,
+								0.275,
+								0.93,
+								0.145,
+								0.22,
+								0.145,
+								0.17
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 784031697744782,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
